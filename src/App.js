@@ -37,7 +37,7 @@ export default function App() {
                 <Paper elevation={3}>
                     <Navbar theme={theme} toggleTheme={toggleTheme} />
                     <Routes>
-                        <Route path="/" element={<Layout toggleTheme={toggleTheme} />} >
+                        <Route path="/" element={<Layout />} >
                             <Route path="/" element={<Home/>} />
                         </Route>
                     </Routes>
