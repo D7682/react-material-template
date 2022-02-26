@@ -4,12 +4,11 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-import {Paper, Box, styled} from '@mui/material';
+import { Paper } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import Layout from './components/Layout'
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import { grey, blue } from '@mui/material/colors';
 
 
 let darkTheme = createTheme({
